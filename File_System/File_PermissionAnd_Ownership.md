@@ -19,5 +19,5 @@ Provide Read, Write Execute permission to everyone
 ## what is the significance of the **sticky bit** in linux?
 it restricts file deletion in shared directories like /tmp.
 ## how do you add the sticky bit to a directroy?
-```bash chmod +t directory_name
+```bash chmod +t directory_name```
 
