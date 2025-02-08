@@ -30,7 +30,26 @@
 ```bash du -sh directory_name```
 ## how do you search for a file by name in a directory?
 ```bash find /path/to/directory -name filename ```
-
+## how do you compress a file using gzip?
+```bash gunzip filename.gz```
+## how do you decompress a gzip file?
+```bash gunzip filename.gz```
+## how do you archive multiple files using tar?
+```bash tar -czvf archive.tar.gz files```
+## how do you extract a tar.gz archive?
+```bash tar -xzvf archive.tar.gz```
+## how do you mount a filesystem?
+```bash mount device_name mount_point```
+## how do you unmount a filesystem?
+```bash unmount mount_point```
+## how do you create a symbolic link?
+```bash ln -s target_file link_name```
+## how do you view file types in a directory?
+```bash file filename```
+## how do you remove an empty directory?
+```bash rmdir directory_name```
+## how do you check for file existence?
+```bash test -f filename```
 
 
 
